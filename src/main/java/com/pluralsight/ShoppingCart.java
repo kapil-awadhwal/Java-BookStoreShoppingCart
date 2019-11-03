@@ -19,7 +19,7 @@ public class ShoppingCart {
    }
    catch(IndexOutOfBoundsException e)
    {
-     System.out.println(e.message());
+     e.printStackTrace();
    }
 
  }
